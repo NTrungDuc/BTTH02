@@ -1,0 +1,65 @@
+html{
+    margin:0;
+    font-family: 'Archivo', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+}
+body{
+    max-width: 1920px;
+    margin: 0px;
+}
+.header{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    line-height: 27px;
+    height: 90px;
+    width: 100%;
+    align-items: center;
+}
+.logo{
+    width: 20%;
+    justify-content: center;
+}
+.logo img{
+    display: flex;
+    justify-content: center;
+    max-width: auto;
+    text-align: center;
+    vertical-align: middle;
+    max-height: 70px;
+    margin: 0;
+}
+.tonghop,
+.navbar{
+    display: flex;
+    justify-content: center;
+}
+.nav_menu{
+    display: flex;
+    margin: 20px;
+    padding: 0;
+    list-style: none;
+    max-width: max-content;
+    text-decoration: none;
+}
+div div ul li ul li {
+    display: none;
+}
+div div ul li:hover ul li{
+    display: block;
+}
+.menu, 
+.i{
+    margin: 0 15px;
+}
+a{
+    text-decoration: none;
+    color: black
+}
+.slide img{
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 -5px 5px rgb(224, 224, 224);
+}
